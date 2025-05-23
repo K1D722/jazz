@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Para Mi Amor</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #f7cac9, #fceabb);
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    .card {
+      background: white;
+      padding: 2rem 3rem;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      text-align: center;
+      animation: fadeIn 1.2s ease-out forwards;
+    }
+
+    .card h1 {
+      font-size: 2.5rem;
+      color: #d6336c;
+      margin-bottom: 1rem;
+    }
+
+    .card p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+
+    .card .heart {
+      font-size: 3rem;
+      color: #e25555;
+      animation: heartbeat 1.5s infinite;
+    }
+
+    .buttons {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      background-color: #d6336c;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #b02a55;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes heartbeat {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.2);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Para Mi Amor</h1>
+    <p>
+      Esta página es un pequeño regalo para recordarte lo mucho que significás para mí.<br />
+      Cada día contigo es un nuevo motivo para sonreír.<br /><br />
+      Gracias por ser mi inspiración constante.
+    </p>
+    <div class="heart">❤️</div>
+    <div class="buttons">
+      <a class="btn" href="https://www.instagram.com/jaaazzchuuuuu" target="_blank">Instagram de Ella</a>
+      <a class="btn" href="https://instagram.com/l.4max" target="_blank">Mi Instagram</a>
+    </div>
+  </div>
+</body>
+</html>
